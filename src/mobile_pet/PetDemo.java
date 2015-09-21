@@ -1,8 +1,9 @@
+package mobile_pet;
+
 import java.util.Scanner;
 
-
 public class PetDemo {
-	
+
 	/**
 	 * @param args
 	 */
@@ -12,7 +13,7 @@ public class PetDemo {
 		System.out.println("My records on your pet are incomplete.");
 		System.out.println("Here is what they currently say:");
 		System.out.println(usersPet);
-		
+
 		Scanner keyboard = new Scanner(System.in);
 		System.out.println("Please enter the pet's name:");
 		String name = keyboard.nextLine();
@@ -24,5 +25,5 @@ public class PetDemo {
 		System.out.println("My records now say:");
 		System.out.println(usersPet);
 	}
-	
+
 }
